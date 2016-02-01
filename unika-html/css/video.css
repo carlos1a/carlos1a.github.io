@@ -1,0 +1,21 @@
+
+.hero_area{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/* here bottom value can be set to 0 to always match the buttom part of the video with the buttom part of the containing div, in our case hero_area. I have used negative -150px to pull the video downward so that i can chop some unwanted area which overflow of parent(hero_area) will hide.
+* as width is set to 100%, and height to auto, as the width of the browser changes height is auto calculated making the video responsive
+*/
+
+.hero_area video{
+
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
