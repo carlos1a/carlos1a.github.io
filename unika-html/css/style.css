@@ -266,8 +266,19 @@ section {
 	color: #FFF;
 }
 /* ===== End navbar ===== */
+.s{
+	height:100%;
+	background-color:#363940;
+}
+.video {
 
 
+}
+.video  video{
+	margin-top: 7%;
+
+	height: 100%;
+}
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
